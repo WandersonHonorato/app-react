@@ -1,11 +1,36 @@
 function Main() {
   return (
-    <main className="container mt-5">
-      <h1>Bem-vindo ao Projeto</h1>
-      
-      <p>
-        Introdução da aplicação criada com React e Bootstrap.
+    <main style={{ minHeight: '70vh' }} className="container mt-5">
+      <h1 className="fs-5 fw-bold fs-1">Dev Honorato </h1>
+
+      <p className="fs-4 fst-italic">
+        Introdução ao  <span className="badge bg-primary">React.js</span>
       </p>
+
+      <div style={{ minHeight: '50vh' }} class="card">
+        <div class="card-header bg-secondary text-white">
+          Documentação
+        </div>
+        <div class="card-body">
+          <figure>
+            <blockquote class="blockquote">
+              <p className="fst-italic">Aprenda React.Js!</p>
+            </blockquote>
+            <figcaption class="blockquote-footer my-3">
+              Someone famous in <cite title="Source Title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt quos explicabo porro dolore alias, nostrum ducimus magni adipisci accusamus doloribus expedita ratione iure illo provident voluptas beatae deleniti autem? Sint?</cite> 
+              </figcaption>
+              <figcaption class="blockquote-footer my-3">
+              Someone famous in <cite title="Source Title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt quos explicabo porro dolore alias, nostrum ducimus magni adipisci accusamus doloribus expedita ratione iure illo provident voluptas beatae deleniti autem? Sint?</cite>          
+            </figcaption>
+              <figcaption class="blockquote-footer my-3">
+              Someone famous in <cite title="Source Title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt quos explicabo porro dolore alias, nostrum ducimus magni adipisci accusamus doloribus expedita ratione iure illo provident voluptas beatae deleniti autem? Sint?</cite>          
+            </figcaption>
+              <figcaption class="blockquote-footer my-3">
+              Someone famous in <cite title="Source Title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt quos explicabo porro dolore alias, nostrum ducimus magni adipisci accusamus doloribus expedita ratione iure illo provident voluptas beatae deleniti autem? Sint?</cite>          
+            </figcaption>
+          </figure>
+        </div>
+      </div>
     </main>
   );
 }
