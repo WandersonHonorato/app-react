@@ -14,7 +14,7 @@ function Main() {
         <div class="card-body">
           <figure>
             <blockquote class="blockquote">
-              <p className="fst-italic">Aprenda React.Js!</p>
+              <p className="fs-5 fst-italic">A biblioteca para interfaces de usuário web e nativas!</p>
             </blockquote>
             <figcaption class="blockquote-footer my-3">
               Someone famous in <cite title="Source Title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt quos explicabo porro dolore alias, nostrum ducimus magni adipisci accusamus doloribus expedita ratione iure illo provident voluptas beatae deleniti autem? Sint?</cite> 
